@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  width: 100px;
+  padding: 8px 15px;
+  background: transparent;
+  border: 0px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+label {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 20px;
+  cursor: auto;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+.Row {
+  display: flex;
+  flex-direction: row;
+}
+.Column {
+  display: flex;
+  flex-direction: column;
+}
+.ButtonStart {
+  background: #4aae71;
+}
+.ButtonRestart {
+  background: #fbad10;
+}
+.ButtonStop {
+  background: #0090dd;
+}
